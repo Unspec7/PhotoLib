@@ -134,3 +134,4 @@ hs_err_pid*
 .idea/vcs.xml
 PhotoLib.iml
 /data/users
+/data/user.ser
