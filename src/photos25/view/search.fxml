@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="photos25.view.adminPageController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Search" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ScrollPane fitToWidth="true" hbarPolicy="NEVER" layoutY="106.0" prefHeight="455.0" prefWidth="800.0" style="-fx-background-color: DAE6F3;" AnchorPane.bottomAnchor="39.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="106.0">
+         <content>
+            <TilePane hgap="15.0" tileAlignment="TOP_LEFT">
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets></TilePane>
+         </content>
+      </ScrollPane>
+      <Button layoutX="734.0" layoutY="71.0" mnemonicParsing="false" text="Search" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="71.0" />
+      <Button layoutX="14.0" layoutY="567.0" mnemonicParsing="false" text="Create New Album" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="14.0" />
+      <TextField layoutX="138.0" layoutY="567.0" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="138.0" AnchorPane.rightAnchor="10.0" />
+      <Label layoutX="10.0" layoutY="82.0" text="Results" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="82.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField layoutX="637.0" layoutY="9.0" prefHeight="25.0" prefWidth="379.0" promptText="Date" AnchorPane.leftAnchor="407.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="9.0" />
+      <TextField layoutX="637.0" layoutY="40.0" prefHeight="25.0" prefWidth="379.0" promptText="Tags, seperate multiple by semicolons ( ; )" AnchorPane.leftAnchor="407.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="40.0" />
+      <Label layoutX="347.0" layoutY="23.0" text="Criteria" AnchorPane.leftAnchor="347.0" AnchorPane.rightAnchor="405.0" AnchorPane.topAnchor="23.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
